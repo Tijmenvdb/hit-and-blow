@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+.colored-peg {
+    display: block;
+    box-sizing: border-box;
+    width: .25in;
+    height: .25in;
+    background-color: black;
+    border: none;
+    border-radius: .125in;
+    margin: .1in;
+    padding: none;
+}
+
+.colored-peg:not([disabled]) {
+    cursor: pointer;
+}
+
+.colored-peg:not([disabled]):hover {
+    border: solid .03in  rgba($color: #fff, $alpha: .7);
+}
+
+.white {
+    background-color: white !important;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.blue {
+    background-color: blue !important;
+}
+
+.green {
+    background-color: green !important;
+}
+
+.pink {
+    background-color: hotpink !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+}

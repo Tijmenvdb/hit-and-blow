@@ -1,0 +1,29 @@
+.result-section {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    min-width: 70px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: .4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: solid 3px rgba($color: #000000, $alpha: .2);
+    justify-content: space-evenly;
+    margin-right: .05in;
+}
+
+.result-peg {
+    display: block;
+    box-sizing: border-box;
+    width: .1in;
+    height: .1in;
+    background-color: black;
+    border: none;
+    border-radius: .05in;
+    margin: .02in;
+    padding: none;
+}

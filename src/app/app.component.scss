@@ -1,0 +1,42 @@
+.game-container {
+    background-color: rgba($color: #000000, $alpha: .20);
+    width: 10in;
+    border-radius: 5px;
+}
+
+.game-box {
+    display: flex;
+    height: 2.3in;
+    justify-content: center;
+    padding: 0.2in;
+}
+
+input:checked ~ span {
+    border: solid .03in rgba($color: black, $alpha: 1) !important;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+label.colored-peg {
+    position: relative;
+}
+
+label.colored-peg:hover {
+    border: none;
+}
+
+span.colored-peg {
+    display: block;
+    position: absolute;
+    top: -40%;
+    left: -40%;
+}
+
+.color-picker {
+    display: flex;
+    justify-content: center;
+}
